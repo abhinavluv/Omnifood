@@ -6,12 +6,14 @@
     box-sizing: border-box;
 }
 
-html {
+html,
+body {
     color: #555;
     font-family: 'Lato', 'Arial', sans-serif;
     font-size: 20px;
     font-weight: 300;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 
 .clearfix {
@@ -172,7 +174,7 @@ input[type='submit']:active {
 
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-        url('images/hero.jpg');
+        url('./images/hero.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -338,7 +340,7 @@ header {
 
 .section-testimonials {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-        url('/resources/css/images/back-customers.jpg');
+        url('../css/images/back-customers.jpg');
     background-size: cover;
     background-attachment: fixed;
     color: #fff;
